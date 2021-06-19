@@ -1,0 +1,16 @@
+{
+    "name": "Robot_Scripts",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f492b0c05bc599445831cf88d754ccfd"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
