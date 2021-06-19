@@ -28,7 +28,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/Robot_Abuse_Plus.unity:
+    Assets/Scenes/Robot_Abuse.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -58,29 +58,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2200}
+      Script: {instanceID: 1506}
     - Class: 114
-      Script: {instanceID: 2652}
+      Script: {instanceID: 1962}
     - Class: 114
-      Script: {instanceID: 2716}
+      Script: {instanceID: 2026}
     - Class: 114
-      Script: {instanceID: 2840}
+      Script: {instanceID: 2150}
     - Class: 114
-      Script: {instanceID: 3034}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 3152}
+      Script: {instanceID: 2464}
     - Class: 114
-      Script: {instanceID: 3292}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 3486}
+      Script: {instanceID: 2800}
     - Class: 114
-      Script: {instanceID: 3574}
+      Script: {instanceID: 2888}
     - Class: 114
-      Script: {instanceID: 3766}
+      Script: {instanceID: 3080}
     - Class: 114
-      Script: {instanceID: 5222}
+      Script: {instanceID: 3358}
     - Class: 114
-      Script: {instanceID: 17528}
+      Script: {instanceID: 4544}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -428,6 +428,12 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UI_Scripts.dll
+    namespaceName: 
+    className: Exit_Application
+  - hash:
+      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -618,14 +624,8 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UI_Scripts.dll
-    namespaceName: 
-    className: Exit_Application
   platform: 5
   scenePathNames:
-  - Assets/Scenes/Robot_Abuse_Plus.unity
-  playerPath: D:/Personal Work/Unity Test Stuff/Robot Abuse/Builds/Robot_Abuse_Plus/Robot
+  - Assets/Scenes/Robot_Abuse.unity
+  playerPath: D:/Github Repositories/Robot_Abuse/Robot Abuse/Builds/Robot_Abuse/Robot
     Abuse.exe
