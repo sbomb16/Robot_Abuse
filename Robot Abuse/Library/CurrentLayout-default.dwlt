@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 10}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 759
     width: 698
     height: 548
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 192}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 186
+  controlID: 41
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,9 +93,9 @@ MonoBehaviour:
     x: 464
     y: 0
     width: 1398
-    height: 545
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+    height: 582
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -120,13 +120,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 762
+    y: 725
     width: 1862
-    height: 545
-  m_MinSize: {x: 433, y: 271}
-  m_MaxSize: {x: 14003, y: 10021}
+    height: 582
+  m_MinSize: {x: 431, y: 271}
+  m_MaxSize: {x: 14001, y: 10021}
   vertical: 0
-  controlID: 157
+  controlID: 168
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,8 +148,8 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 709, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MinSize: {x: 707, y: 492}
+  m_MaxSize: {x: 18002, y: 14042}
   vertical: 0
   controlID: 15
 --- !u!114 &7
@@ -171,8 +171,8 @@ MonoBehaviour:
     y: 0
     width: 698
     height: 759
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -196,9 +196,9 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 465
-    height: 762
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+    height: 725
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -222,7 +222,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 464
-    height: 545
+    height: 582
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 18}
@@ -325,8 +325,8 @@ MonoBehaviour:
     y: 0
     width: 1862
     height: 1307
-  m_MinSize: {x: 433, y: 492}
-  m_MaxSize: {x: 14003, y: 14042}
+  m_MinSize: {x: 431, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 1
   controlID: 16
 --- !u!114 &14
@@ -349,7 +349,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1862
-    height: 762
+    height: 725
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
@@ -372,9 +372,9 @@ MonoBehaviour:
     x: 465
     y: 0
     width: 1397
-    height: 762
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+    height: 725
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -402,17 +402,17 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 464
-    y: 447
+    y: 798
     width: 1396
-    height: 912
+    height: 561
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 704
+    ID: 533
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
-    - 631
-    - 211
+    - 368
+    - 123
     relativeSizes:
     - 0.75
     - 0.25
@@ -422,7 +422,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 842
+    lastTotalSize: 491
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -491,7 +491,7 @@ MonoBehaviour:
       name: Robot Abuse
       fullName: Robot Abuse
       resultStatus: 1
-      duration: 0.0629713
+      duration: 0.0574066
       messages: 
       output: 
       stacktrace: 
@@ -507,7 +507,7 @@ MonoBehaviour:
       name: Tests.dll
       fullName: D:/Personal Work/Unity Test Stuff/Robot Abuse/Library/ScriptAssemblies/Tests.dll
       resultStatus: 1
-      duration: 0.0333838
+      duration: 0.0322166
       messages: 
       output: 
       stacktrace: 
@@ -523,7 +523,7 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 1
-      duration: 0.0329258
+      duration: 0.0317177
       messages: 
       output: 
       stacktrace: 
@@ -535,11 +535,49 @@ MonoBehaviour:
       parentId: 1003
       parentUniqueId: '[Tests.dll][suite]'
     - id: 1001
+      uniqueId: Tests.dll/Tests/[Tests][Tests.Part_Range_Detect_Test][suite]
+      name: Part_Range_Detect_Test
+      fullName: Tests.Part_Range_Detect_Test
+      resultStatus: 1
+      duration: 0.0253509
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][suite]
+    - id: 1002
+      uniqueId: Tests.dll/Tests/Part_Range_Detect_Test/[Tests][Tests.Part_Range_Detect_Test.TestingRange]
+      name: TestingRange
+      fullName: Tests.Part_Range_Detect_Test.TestingRange
+      resultStatus: 1
+      duration: 0.0152379
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.Part_Range_Detect_Test][suite]
+    - id: 1001
       uniqueId: Tests.dll/Tests/[Tests][Tests.UI_Status_Test][suite]
       name: UI_Status_Test
       fullName: Tests.UI_Status_Test
       resultStatus: 1
-      duration: 0.0318797
+      duration: 0.0052526
       messages: 
       output: 
       stacktrace: 
@@ -555,7 +593,7 @@ MonoBehaviour:
       name: TestingStatus
       fullName: Tests.UI_Status_Test.TestingStatus
       resultStatus: 1
-      duration: 0.0187877
+      duration: 0.0011087
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -572,12 +610,19 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Tests.dll/Tests/[Tests][Tests.UI_Status_Test][suite]
-    m_ResultText: UI_Status_Test (0.032s)
+    m_ResultText: 'TestingRange (0.015s)
+
+      ---
+
+      You are trying to create
+      a MonoBehaviour using the ''new'' keyword.  This is not allowed.  MonoBehaviours
+      can only be added using AddComponent(). Alternatively, your script can inherit
+      from ScriptableObject or no base class at all'
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c2919d9f
-      m_LastClickedID: -1617063486
+      m_SelectedIDs: 98dda69c
+      m_LastClickedID: -1666785896
       m_ExpandedIDs: 79f8cd91e557abf79a10b03022524b3a8359db41e08e6052ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -650,9 +695,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 835
+    y: 798
     width: 463
-    height: 524
+    height: 561
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -681,7 +726,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 1a260000
     m_LastClickedID: 9754
-    m_ExpandedIDs: 0000000070400000724000007440000076400000784000007a4000007c4000007e400000
+    m_ExpandedIDs: 00000000723f0000743f0000763f0000783f00007a3f00007c3f00007e3f0000803f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -709,7 +754,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff0000000070400000724000007440000076400000784000007a4000007c4000007e400000
+    m_ExpandedIDs: ffffffff00000000723f0000743f0000763f0000783f00007a3f00007c3f00007e3f0000803f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -797,7 +842,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 256
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -825,14 +870,14 @@ MonoBehaviour:
     x: 0
     y: 73
     width: 464
-    height: 741
+    height: 704
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d6edfffffaedffff00eeffff70efffff02f0ffff28f0ffffd8f0ffff9af2ffffdaf5ffff4efbfffff43d00001c3e00003e41000066410000
+      m_ExpandedIDs: 72d7ffff96d7ffff98d7ffff2cdcffffe0dcffff04ddffffb4ddffff96eaffffbaeaffff6aebffff90f1ffff92f1ffffb2f1ffff58f3ffff4ef8ffff4efbffffc24900004c4a00005c4a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -879,7 +924,7 @@ MonoBehaviour:
     x: 465
     y: 73
     width: 1395
-    height: 741
+    height: 704
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: dbc42a3c31c3d924581f9ec996b304b9
@@ -892,9 +937,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 658.1659, y: 1078.0822, z: 265.4464}
+    m_Target: {x: -0.0061846003, y: 0.15241715, z: 0.02346862}
     speed: 2
-    m_Value: {x: 658.1659, y: 1078.0822, z: 265.4464}
+    m_Value: {x: -0.0061846003, y: 0.15241715, z: 0.02346862}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -941,13 +986,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.17811012, y: -0.09958155, z: 0.018113734, w: -0.9787907}
+    m_Target: {x: 0.0057561537, y: -0.98581016, z: 0.16415067, w: 0.034611028}
     speed: 2
-    m_Value: {x: -0.17808284, y: -0.10104967, z: 0.018380888, w: -0.97864074}
+    m_Value: {x: -0.11820998, y: -0.014288712, z: 0.0016942185, w: -0.9928844}
   m_Size:
-    m_Target: 1239.8945
+    m_Target: 0.18988255
     speed: 2
-    m_Value: 1186.502
+    m_Value: 0.18988255
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -993,9 +1038,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 464
-    y: 835
+    y: 798
     width: 1396
-    height: 524
+    height: 561
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -1028,7 +1073,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -1040,22 +1085,22 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 1396
-      height: 503
-    m_Scale: {x: 0.3638889, y: 0.3638889}
-    m_Translation: {x: 698, y: 251.5}
+      height: 540
+    m_Scale: {x: 0.375, y: 0.375}
+    m_Translation: {x: 698, y: 270}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1918.168
-      y: -691.145
-      width: 3836.336
-      height: 1382.29
+      x: -1861.3334
+      y: -720
+      width: 3722.6667
+      height: 1440
     m_MinimalGUI: 1
-  m_defaultScale: 0.3638889
-  m_LastWindowPixelSize: {x: 1396, y: 524}
+  m_defaultScale: 0.375
+  m_LastWindowPixelSize: {x: 1396, y: 561}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100

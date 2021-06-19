@@ -15,6 +15,7 @@ public class Part_Controller : Part_Manager
     float mouseY;
     float mouseX;
     float mouseSensitivity = 0.02f;
+    float attachRadius = 0.001f;
 
     public bool canReplacePart;
     public bool movingPart;
@@ -56,7 +57,7 @@ public class Part_Controller : Part_Manager
             // If the part is less than 0.001 units away from its original 
             // position, change the part color to indicate it can be replaced, 
             // otherwise set the part's colors to their original colors
-            if (transform.position.magnitude - origPos.magnitude <= 0.001f) 
+            if (ResetRangeDetect(transform.position.magnitude - origPos.magnitude)) 
             {
                 ChangePartColor(Color.green);
                 canReplacePart = true;
@@ -94,6 +95,21 @@ public class Part_Controller : Part_Manager
         for (int i = 0; i < parts.Length; i++)
         {
             parts[i].GetComponent<Renderer>().material.color = partColors[i];
+        }
+    }
+
+    // This function takes in a float, and determines whether it's close 
+    // enough to the part's original position to be snapped into place 
+    // using a float as a radius
+    public bool ResetRangeDetect(float range)
+    {
+        if(range <= attachRadius)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
 
