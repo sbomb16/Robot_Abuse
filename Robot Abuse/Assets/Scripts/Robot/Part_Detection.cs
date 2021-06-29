@@ -82,12 +82,7 @@ public class Part_Detection : Part_Controller
         // to true and false respectfully, and reset the part's colors
         if (controller.canReplacePart)
         {
-            basePart.position = controller.origPos;
-
-            controller.connected = true;
-
-            controller.movingPart = false;
-            controller.ResetPartColors();
+            ResetPart();
         }
         // Otherwise, set the Part_Controller connected and movingPart variables to false
         else
@@ -95,5 +90,15 @@ public class Part_Detection : Part_Controller
             controller.movingPart = false;
             controller.connected = false;
         }
+    }
+
+    public void ResetPart()
+    {
+        basePart.position = controller.origPos;
+
+        controller.connected = true;
+
+        controller.movingPart = false;
+        controller.ResetPartColors();
     }
 }

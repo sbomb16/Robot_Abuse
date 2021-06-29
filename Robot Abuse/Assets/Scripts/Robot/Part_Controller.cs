@@ -6,6 +6,8 @@ public class Part_Controller : Part_Manager
 
     Part_Manager mainController;
 
+    public Part_Detection partDetection;
+
     public Transform[] parts;
 
     public Color[] partColors;
@@ -30,13 +32,16 @@ public class Part_Controller : Part_Manager
         // Initialize the parts and partColors array sizes
         parts = new Transform[transform.childCount];
         partColors = new Color[transform.childCount];
+        partDetection = new Part_Detection();
 
-        
         for(int i = 0; i <= transform.childCount - 1; i++) // Fill in the parts and partColors arrays
         {
             parts[i] = transform.GetChild(i);
             partColors[i] = parts[i].GetComponent<Renderer>().material.color;
+            
         }
+
+        partDetection = parts[0].GetComponent<Part_Detection>();
 
         // Set the original position of this part
         origPos = transform.position;
@@ -96,6 +101,11 @@ public class Part_Controller : Part_Manager
         {
             parts[i].GetComponent<Renderer>().material.color = partColors[i];
         }
+    }
+
+    public void ResetPartPosition()
+    {
+        partDetection.ResetPart();
     }
 
     // This function takes in a float, and determines whether it's close 

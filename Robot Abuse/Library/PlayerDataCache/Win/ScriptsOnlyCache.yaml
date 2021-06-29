@@ -1,11 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Button_Scripts.dll:
+    - Exit_Application
+    - Reset_Robot
     Robot_Scripts.dll:
     - Part_Controller
     - Part_Detection
     - Part_Manager
     UI_Scripts.dll:
-    - Exit_Application
     - UI_Manager
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
@@ -13,12 +15,9 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    - Packages.Rider.Editor.UnitTesting.SyncTestRunEventsHandler
     UnityEditor.TestRunner.dll:
     - TestRunner.Callbacks.WindowResultUpdaterDataHolder
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
-    - UnityEditor.TestTools.TestRunner.RerunCallbackData
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     - UnityEditor.TestTools.TestRunner.TestRunnerWindow
@@ -31,7 +30,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/Robot_Abuse.unity:
+    Assets/Scenes/Robot_Abuse_Plus.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -73,17 +72,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2464}
     - Class: 114
-      Script: {instanceID: 2606}
+      Script: {instanceID: 2608}
     - Class: 114
-      Script: {instanceID: 2800}
+      Script: {instanceID: 2802}
     - Class: 114
-      Script: {instanceID: 2888}
+      Script: {instanceID: 2890}
     - Class: 114
-      Script: {instanceID: 3080}
+      Script: {instanceID: 3082}
     - Class: 114
-      Script: {instanceID: 3358}
+      Script: {instanceID: 3360}
     - Class: 114
-      Script: {instanceID: 4544}
+      Script: {instanceID: 4546}
+    - Class: 114
+      Script: {instanceID: 16342}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -173,7 +174,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: 75fa5975b386d83f46a72c70b44a3a43
+      Hash: e780a350e82d7002eafa000d4cc05fe7
     assemblyName: Robot_Scripts.dll
     namespaceName: 
     className: Part_Detection
@@ -203,7 +204,7 @@ ScriptsOnlyBuild:
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
-      Hash: 75fa5975b386d83f46a72c70b44a3a43
+      Hash: e780a350e82d7002eafa000d4cc05fe7
     assemblyName: Robot_Scripts.dll
     namespaceName: 
     className: Part_Controller
@@ -432,7 +433,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UI_Scripts.dll
+    assemblyName: Button_Scripts.dll
     namespaceName: 
     className: Exit_Application
   - hash:
@@ -611,7 +612,7 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 02fe27329f1be5396d40385537e98c0b
+      Hash: 6a365bf2b18311fcbd55cee35a02bcf2
     assemblyName: Robot_Scripts.dll
     namespaceName: 
     className: Part_Manager
@@ -627,8 +628,14 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Button_Scripts.dll
+    namespaceName: 
+    className: Reset_Robot
   platform: 5
   scenePathNames:
-  - Assets/Scenes/Robot_Abuse.unity
-  playerPath: D:/Github Repositories/Robot_Abuse/Robot Abuse/Builds/Robot_Abuse/Robot
+  - Assets/Scenes/Robot_Abuse_Plus.unity
+  playerPath: D:/Github Repositories/Robot_Abuse/Robot Abuse/Builds/Robot_Abuse_Plus/Robot
     Abuse.exe

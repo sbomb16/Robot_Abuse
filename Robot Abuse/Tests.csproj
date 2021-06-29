@@ -56,8 +56,8 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Tests\UI_Status_Test.cs" />
     <Compile Include="Assets\Scripts\Tests\Part_Range_Detect_Test.cs" />
+    <Compile Include="Assets\Scripts\Tests\UI_Status_Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Tests\Tests.asmdef" />

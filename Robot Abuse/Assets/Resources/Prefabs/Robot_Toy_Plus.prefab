@@ -12,29 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
-  parts: []
-  partColors: []
-  origPos: {x: 0, y: 0, z: 0}
-  canReplacePart: 0
-  movingPart: 0
-  hoveredOver: 0
-  connected: 0
---- !u!114 &1743091923864322466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 625022720713705405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uiManager: {fileID: 0}
-  hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -56,6 +37,29 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5036805727328790170, guid: 2329f01b31a89374e941821135a0f6ca, type: 3}
+--- !u!114 &1743091923864322466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625022720713705405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllers: []
+  uiManager: {fileID: 0}
+  hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
+  parts: []
+  partColors: []
+  origPos: {x: 0, y: 0, z: 0}
+  canReplacePart: 0
+  movingPart: 0
+  hoveredOver: 0
+  connected: 0
 --- !u!114 &7499596587953224489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,8 +72,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -89,8 +95,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13c3a2b6b0c923f4c88c44826f2191dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -110,29 +118,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
-  parts: []
-  partColors: []
-  origPos: {x: 0, y: 0, z: 0}
-  canReplacePart: 0
-  movingPart: 0
-  hoveredOver: 0
-  connected: 0
---- !u!114 &4652025331003661766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2120238155516418813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uiManager: {fileID: 0}
-  hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -154,6 +143,29 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6146676407004857523, guid: 2329f01b31a89374e941821135a0f6ca, type: 3}
+--- !u!114 &4652025331003661766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120238155516418813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllers: []
+  uiManager: {fileID: 0}
+  hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
+  parts: []
+  partColors: []
+  origPos: {x: 0, y: 0, z: 0}
+  canReplacePart: 0
+  movingPart: 0
+  hoveredOver: 0
+  connected: 0
 --- !u!114 &8435115587572132151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,8 +178,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -187,8 +201,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -208,8 +224,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -229,8 +247,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -250,8 +270,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13c3a2b6b0c923f4c88c44826f2191dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -271,8 +293,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -292,8 +316,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -313,8 +339,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -371,6 +399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ba9060c3ad8b28458126b17ad6e7978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
 --- !u!114 &1060650101269249556
@@ -385,8 +414,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -406,8 +437,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13c3a2b6b0c923f4c88c44826f2191dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -427,8 +460,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13c3a2b6b0c923f4c88c44826f2191dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -448,8 +483,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -469,8 +506,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13c3a2b6b0c923f4c88c44826f2191dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -490,8 +529,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -511,29 +552,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllers: []
   uiManager: {fileID: 0}
   hoveredPart: {fileID: 0}
-  parts: []
-  partColors: []
-  origPos: {x: 0, y: 0, z: 0}
-  canReplacePart: 0
-  movingPart: 0
-  hoveredOver: 0
-  connected: 0
---- !u!114 &3720400786895968606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8909590760316241057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uiManager: {fileID: 0}
-  hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
   parts: []
   partColors: []
   origPos: {x: 0, y: 0, z: 0}
@@ -555,6 +577,29 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4864283720540968698, guid: 2329f01b31a89374e941821135a0f6ca, type: 3}
+--- !u!114 &3720400786895968606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8909590760316241057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cb5f291acba541439e32435f744852b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllers: []
+  uiManager: {fileID: 0}
+  hoveredPart: {fileID: 0}
+  partDetection: {fileID: 0}
+  parts: []
+  partColors: []
+  origPos: {x: 0, y: 0, z: 0}
+  canReplacePart: 0
+  movingPart: 0
+  hoveredOver: 0
+  connected: 0
 --- !u!1001 &1867374676013889452
 PrefabInstance:
   m_ObjectHideFlags: 0

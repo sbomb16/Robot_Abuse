@@ -1,0 +1,16 @@
+{
+    "name": "Button_Scripts",
+    "rootNamespace": "",
+    "references": [
+        "GUID:853c8c7161e9c5f41afb54b6b9158869"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
